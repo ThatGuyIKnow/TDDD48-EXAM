@@ -15,7 +15,7 @@ A *transition system* is a 6-tuple $T = ⟨S, L, c, T, s_0, S^⋆⟩$ where:
 #include "00.1-properties.typ"
 #include "00.2-dom-set.typ"
 #include "00.3-complexity.typ"
-
+#include "00.4-searches.typ"
 
 
 

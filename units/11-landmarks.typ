@@ -38,7 +38,7 @@
  - Precondition choice function: $P: O arrow V$, maps any operator in a task $Pi$ to one of it's preconditions.
  - Justification graph: $angle.l V, E := {angle.l P(o), a angle.r | o in O, a in "add"(o)} angle.r$
 
- #image("../images/justification-graph.png")
+ #image("../images/justification-graph.png", width:90%)
 
  - *Cut* ($C subset.eq E$): A subset of edges, such that ALL paths $i attach(arrow, t: *) g$ contains $e in C$. Doesn't have to include all.
 

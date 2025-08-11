@@ -9,7 +9,7 @@ $o_1 = angle.l c or (a and b), c and ((c and d) triangle.r e), 1 angle.r$\
 $o_2 = angle.l top, f, 2 angle.r$\
 $o_3 = angle.l f, g, 1 angle.r$ \
 $o_4 = angle.l f, h, 1 angle.r$\
-#image("../images/rtg.png", width: 100%)
+#image("../images/rtg.png", width: 90%)
 
 
 == $h^"max"$ & $h^"add"$ 
@@ -20,7 +20,7 @@ $o_4 = angle.l f, h, 1 angle.r$\
 - #hplus and #hff $arrow.r$ NOT admissible and consistent
 - All are safe and goal-aware.
 
-#image("../images/hmax-hadd.png", width: 100%)
+#image("../images/hmax-hadd.png", width: 90%)
 Above, only nodes where $h^"max"$ (left) and $h^"add"$ (right) differ are recorded.
 
  - $h^"max"$: Pick the max predecessor at AND node, and the min at OR
@@ -32,7 +32,7 @@ Above, only nodes where $h^"max"$ (left) and $h^"add"$ (right) differ are record
 
  - BAG can be achieved by removing all incoming edges into a OR node, except the minimum cost one
 
- #image("../images/best-achiever-graph.png", width: 100%)
+ #image("../images/best-achiever-graph.png", width: 00%)
 
   - $h^"FF"$ can be achieved by adding all operators participating in the $G^"add"$ for $h^"add"$
   - $G$ are also useful for analysis when $h^"add"$ overapprox and when $h^"max"$ under approx.

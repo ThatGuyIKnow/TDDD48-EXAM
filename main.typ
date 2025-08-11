@@ -29,3 +29,6 @@
 #include "units/10-merge-and-shrink.typ"
 #include "units/11-landmarks.typ"
 #include "units/12-integer-and-linear-programs.typ"
+#include "units/13-cost-partitioning.typ"
+#include "units/14-network-flow.typ"
+#include "units/operator-counting.typ"

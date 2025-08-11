@@ -19,4 +19,9 @@
  - i-g Form: STRIPS form. ${i,g} subset.eq V$. $I:={i}$. \ $gamma:={g}$. $forall(o in O)(|"pre"(o)| > 0)$
     - Any task can be made i-g form trivially, if already STRIPS.
 
+ - Transition Normal Form (TNF): $forall(o in O)("vars"("eff"(o)) = "vars"("pre"(o)))$ and $"vars"(gamma) = V$.
+    - This can be achieved by 1) add auxiliary $u$ to every $"dom"(v)$
+    - 2) For each variable and value, add an operator than converts it to $u$ for zero cost
+    - 3) For all $o$, if a variable is in $"pre"$, but not in $"eff"$ add it with the same value. If $v$ in $"eff"$ but not in $"pre"$, add $v=u$ in $"pre"$
+
  - Algorithm is *sound* $arrow.r$ plans are correct, and "unsolveable" answer is correct.
