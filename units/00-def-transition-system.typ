@@ -1,4 +1,5 @@
 = Definition: Transition System
+A *planning task* is a 4-tuple $Pi = angle.l V, I, O, gamma angle.r$
 
 A *transition system* is a 6-tuple $T = ⟨S, L, c, T, s_0, S^⋆⟩$ where:
 

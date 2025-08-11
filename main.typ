@@ -25,3 +25,7 @@
 #include "units/06-bdd-apply-alg.typ"
 #include "units/07-rtg.typ"
 #include "units/08-fdr.typ"
+#include "units/09-abstractions.typ"
+#include "units/10-merge-and-shrink.typ"
+#include "units/11-landmarks.typ"
+#include "units/12-integer-and-linear-programs.typ"
