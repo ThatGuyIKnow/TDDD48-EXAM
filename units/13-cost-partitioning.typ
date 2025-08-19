@@ -14,18 +14,19 @@ Example:
  == Saturated Cost Partitioning
 
   - mscf: minimum saturated cost function
-
+  - It is the DIFFERENCE in heuristic estimation for state $s$ and state $t$.
   $"mscf"(o) = 
   max(0,  attach(attach(limits(limits(max)_o), 
      b: alpha(s) arrow alpha(t)))(h^alpha (s) - h^alpha (t)))$
 
 *Algorithm*
 
-_Iterate_
- - Pick a heuristic $h_i$ that hasn't been picked. Terminate if none is left.
- - Compute $h_i$ given current cost
- - Compute $"scf"_i$ (ideally $"mscf"_i$) for $h_i$
- - Decrease $"cost"(o)$ by $"scf"_i (o)$ for all $o$
+ -_Iterate_
+  - Pick a heuristic $h_i$ that hasn't been picked. Terminate if none is left.
+  - Compute $h_i$ given current cost
+  - Compute $"scf"_i$ (ideally $"mscf"_i$) for $h_i$
+  - Decrease $"cost"(o)$ by $"scf"_i (o)$ for all $o$
+ - Heuristic is the sum of all scf. I.e. sum all decreases.
 
 
  Example: 

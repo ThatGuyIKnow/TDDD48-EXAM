@@ -3,3 +3,6 @@
  - (PlanEx)istance $lt.eq_p$ (B)ounded (C)ost PlanEx
  - (PlanEx)istance $in "PSPACE"$
  - True for both optimal and satisfycing
+
+ - Planning is $P$ in the number of states.
+
