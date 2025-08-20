@@ -17,7 +17,7 @@
   - Causal fact landmark: Same as above, but $lambda:=v$
   
 
-  - To calculate the RTG landmarks, first instantiate all nodes with all potential landmarks. Then perform this on RTG
+  - To calculate the RTG landmarks, first instantiate all nodes with all potential landmarks. Then perform this on the simplified RTG
   
   $"LM"(n)={n} inter.big_(n' arrow n in A) "LM"(n') " if type"(n)=or$
 

@@ -11,13 +11,16 @@ $o_3 = angle.l f, g, 1 angle.r$ \
 $o_4 = angle.l f, h, 1 angle.r$\
 #image("../images/rtg.png", width: 90%)
 
+== Simplified RTG
+
+ - This is just the RTG without effect nodes
 
 == $h^"max"$ & $h^"add"$ 
 
 - $h^"max" lt.eq h^+ lt.eq h^"FF" lt.eq h^"add"$
 - $h^"max"(s)= infinity arrow.l.r  h^"+"(s)= infinity arrow.l.r h^"FF"(s)= infinity arrow.l.r h^"add"(s)= infinity $
-- #hmax and #hadd $arrow.r$ admissible and consistent
-- #hplus and #hff $arrow.r$ NOT admissible and consistent
+- #hmax and #hplus $arrow.r$ admissible and consistent
+- #hadd and #hff $arrow.r$ NOT admissible and consistent
 - All are safe and goal-aware.
 
 #image("../images/hmax-hadd.png", width: 90%)

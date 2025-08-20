@@ -40,7 +40,7 @@
    - FTS induced by $Pi$ is $F(Pi)={cal(T)^(pi_(v)) | v in V}$
    - $times.circle.big F tilde cal(T)(Pi)$ is the transition system that induced it.
 
-== Merge Strategies
+== Shrinking Strategies
  - $f$-preserving strategy  
   - Combine nodes with identical $g "and" h$ value
    - _Rational_: Preserves $h$ and overall graph shape

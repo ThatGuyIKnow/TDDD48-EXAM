@@ -9,7 +9,7 @@
 === Task forms and Misc.
 
  - Positive normal form: All ops and goal are positive and flat
-   - $o$ is positive if $"pre"(o)$ and $"eff"(o)$ are positive
+   - $o$ is positive if $"pre"(o)$ and $"effcond"(o)$ are positive
    - A logical proposition is positive if $not$ doesn't appear (including $arrow.l$ and $arrow.l.r$
    - $o$ is flat, if $"eff"(o)$ is flat (i.e. contains only atomics or $(x triangle.r y)$)
 
