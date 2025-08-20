@@ -10,7 +10,7 @@
 
 == Additivity
 
-- Orthogonal $alpha_1$ & $alpha_2$: If  $forall (t in cal(T)) (alpha_1(s)=alpha_2(t) ) or (alpha_2(s)=alpha_2(t))$, where $t=angle.l s, ell, t angle.r$
+- Orthogonal $alpha_1$ & $alpha_2$: If  $forall (t in cal(T)) (alpha_1(s)=alpha_1(t) ) or (alpha_2(s)=alpha_2(t))$, where $t=angle.l s, ell, t angle.r$
 - Affect $alpha$ for $ell$, if $angle.l alpha(s), ell, alpha(t) angle.r$, where $alpha(s) eq.not alpha(t)$
 - Also ortogonal if no label affects both abstractions.
 - The sum of orthogonal $h^alpha$ is safe, goal-aware, admissible and consistent.
